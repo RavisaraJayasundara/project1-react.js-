@@ -1,0 +1,10 @@
+.con{
+    background-color: rgb(43, 47, 47);
+    color:aliceblue;
+}
+
+.btn{
+    background-color: aliceblue;
+    color:rgb(3, 29, 51);
+    border: 3px solid black;
+}
