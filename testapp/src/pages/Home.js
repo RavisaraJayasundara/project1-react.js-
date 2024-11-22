@@ -1,6 +1,8 @@
 // import Footer from '../components/Footer';
-import Content from "../components/Content";
 import {Link,useNavigate} from 'react-router-dom';
+ function buttonClick(){
+    console.log("Button is clicked");
+}
 
 export default function Home(){
     const Navigate = useNavigate();
@@ -16,7 +18,10 @@ export default function Home(){
             <button onClick={()=>Navigate("/About")}>
                 About
             </button> 
-                       
+            <hr></hr>
+            <h1><i>React Event Handling</i></h1>
+            <button onClick={buttonClick}>Click Here</button>
+            <br></br>    
         </div>
     )
 } 
